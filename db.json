@@ -2377,73 +2377,79 @@
    "features": [
       {
          "id": "200",
-         "Desc": "dev features",
+         "description": "dev features",
          "features": [
             {
+               "allowEdit": true,
+               "exhibitFormat": "left-right",
                "id": "1",
-               "name": "angular",
+               "name": "ng",
                "situation": "active",
+               "type": "blog",
                "unveilBlog": true,
-               "unveilShorts": true,
                "unveilComments": true,
-               "allowEdit": true,
-               "exhibitFormat": "left-right"
+               "unveilShorts": true
             },
             {
+               "allowEdit": true,
+               "exhibitFormat": "left-right",
                "id": "2",
-               "name": "javascript",
+               "name": "js",
                "situation": "active",
+               "type": "blog",
                "unveilBlog": true,
-               "unveilShorts": true,
                "unveilComments": false,
-               "allowEdit": true,
-               "exhibitFormat": "left-right"
+               "unveilShorts": true
             },
             {
+               "allowEdit": true,
+               "exhibitFormat": "cards",
                "id": "3",
                "name": "rxjs",
                "situation": "inactive",
+               "type": "blog",
                "unveilBlog": false,
-               "unveilShorts": false,
                "unveilComments": false,
-               "allowEdit": true,
-               "exhibitFormat": "left-right"
+               "unveilShorts": false
             }
          ]
       },
       {
          "id": "300",
-         "Desc": "prod features",
+         "description": "prod features",
          "features": [
             {
-               "id": "1",
-               "name": "angular",
-               "situation": "active",
-               "unveilBlog": true,
-               "unveilShorts": true,
-               "unveilComments": true,
                "allowEdit": true,
-               "exhibitFormat": "left-right"
-            },
-            {
-               "id": "2",
-               "name": "javascript",
-               "situation": "inactive",
+               "exhibitFormat": "left-right",
+               "id": "1",
+               "name": "ng",
+               "situation": "active",
+               "type": "blog",
                "unveilBlog": true,
-               "unveilShorts": false,
-               "unveilComments": false,
-               "allowEdit": false,
-               "exhibitFormat": "left-right"
+               "unveilComments": true,
+               "unveilShorts": true
             },
             {
+               "allowEdit": false,
+               "exhibitFormat": "left-right",
+               "id": "2",
+               "name": "js",
+               "situation": "inactive",
+               "type": "blog",
+               "unveilBlog": true,
+               "unveilComments": false,
+               "unveilShorts": false
+            },
+            {
+               "allowEdit": false,
+               "exhibitFormat": "cards",
                "id": "3",
                "name": "rxjs",
                "situation": "inactive",
+               "type": "blog",
                "unveilBlog": false,
-               "unveilShorts": false,
                "unveilComments": false,
-               "allowEdit": false,
-               "exhibitFormat": "left-right"
+               "unveilShorts": false
             }
          ]
       }
