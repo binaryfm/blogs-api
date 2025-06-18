@@ -2377,7 +2377,7 @@
    "features": [
       {
          "id": "200",
-         "Desc": "Admin features",
+         "Desc": "(admin) dev features",
          "features": [
             {
                "id": "1",
@@ -2407,6 +2407,42 @@
                "unveilShorts": false,
                "unveilComments": false,
                "allowEdit": true,
+               "exhibitFormat": "left-right"
+            }
+         ]
+      },
+      {
+         "id": "300",
+         "Desc": "(admin) prod features",
+         "features": [
+            {
+               "id": "1",
+               "name": "angular",
+               "situation": "active",
+               "unveilBlog": true,
+               "unveilShorts": true,
+               "unveilComments": true,
+               "allowEdit": true,
+               "exhibitFormat": "left-right"
+            },
+            {
+               "id": "2",
+               "name": "javascript",
+               "situation": "inactive",
+               "unveilBlog": true,
+               "unveilShorts": false,
+               "unveilComments": false,
+               "allowEdit": false,
+               "exhibitFormat": "left-right"
+            },
+            {
+               "id": "3",
+               "name": "rxjs",
+               "situation": "inactive",
+               "unveilBlog": false,
+               "unveilShorts": false,
+               "unveilComments": false,
+               "allowEdit": false,
                "exhibitFormat": "left-right"
             }
          ]
