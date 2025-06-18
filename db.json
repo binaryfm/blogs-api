@@ -2353,6 +2353,30 @@
       },
       {
          "id": "200",
+         "Desc": "User drop-down options",
+         "iconsOptions": [
+            {
+               "id": 1,
+               "itemName": "faAngular"
+            },
+            {
+               "id": 2,
+               "itemName": "faJs"
+            },
+            {
+               "id": 3,
+               "itemName": "faNodeJs"
+            },
+            {
+               "id": 4,
+               "itemName": "faCss"
+            }
+         ]
+      }
+   ],
+   "features": [
+      {
+         "id": "200",
          "Desc": "Admin features",
          "features": [
             {
@@ -2384,28 +2408,6 @@
                "unveilComments": false,
                "allowEdit": true,
                "exhibitFormat": "left-right"
-            }
-         ]
-      },
-      {
-         "id": "300",
-         "Desc": "User drop-down options",
-         "iconsOptions": [
-            {
-               "id": 1,
-               "itemName": "faAngular"
-            },
-            {
-               "id": 2,
-               "itemName": "faJs"
-            },
-            {
-               "id": 3,
-               "itemName": "faNodeJs"
-            },
-            {
-               "id": 4,
-               "itemName": "faCss"
             }
          ]
       }

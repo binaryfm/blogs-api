@@ -1,6 +1,6 @@
 {
   "name": "blogs-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TechHub (blogs) web services",
   "main": "index.js",
   "scripts": {
