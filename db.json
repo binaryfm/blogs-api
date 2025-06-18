@@ -2377,7 +2377,7 @@
    "features": [
       {
          "id": "200",
-         "Desc": "(admin) dev features",
+         "Desc": "dev features",
          "features": [
             {
                "id": "1",
@@ -2413,7 +2413,7 @@
       },
       {
          "id": "300",
-         "Desc": "(admin) prod features",
+         "Desc": "prod features",
          "features": [
             {
                "id": "1",
