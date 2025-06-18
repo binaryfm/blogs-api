@@ -2353,23 +2353,37 @@
       },
       {
          "id": "200",
-         "Desc": "Site drop-down options",
-         "iconsOptions": [
+         "Desc": "Admin features",
+         "features": [
             {
-               "id": 1,
-               "itemName": "faAngular"
+               "id": "1",
+               "name": "angular",
+               "situation": "active",
+               "unveilBlog": true,
+               "unveilShorts": true,
+               "unveilComments": true,
+               "allowEdit": true,
+               "exhibitFormat": "left-right"
             },
             {
-               "id": 2,
-               "itemName": "faJs"
+               "id": "2",
+               "name": "javascript",
+               "situation": "active",
+               "unveilBlog": true,
+               "unveilShorts": true,
+               "unveilComments": false,
+               "allowEdit": true,
+               "exhibitFormat": "left-right"
             },
             {
-               "id": 3,
-               "itemName": "faNodeJs"
-            },
-            {
-               "id": 4,
-               "itemName": "faCss"
+               "id": "3",
+               "name": "rxjs",
+               "situation": "inactive",
+               "unveilBlog": false,
+               "unveilShorts": false,
+               "unveilComments": false,
+               "allowEdit": true,
+               "exhibitFormat": "left-right"
             }
          ]
       },
