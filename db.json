@@ -2353,7 +2353,31 @@
       },
       {
          "id": "200",
-         "Desc": "Admin features",
+         "Desc": "User drop-down options",
+         "iconsOptions": [
+            {
+               "id": 1,
+               "itemName": "faAngular"
+            },
+            {
+               "id": 2,
+               "itemName": "faJs"
+            },
+            {
+               "id": 3,
+               "itemName": "faNodeJs"
+            },
+            {
+               "id": 4,
+               "itemName": "faCss"
+            }
+         ]
+      }
+   ],
+   "features": [
+      {
+         "id": "200",
+         "Desc": "dev features",
          "features": [
             {
                "id": "1",
@@ -2389,23 +2413,37 @@
       },
       {
          "id": "300",
-         "Desc": "User drop-down options",
-         "iconsOptions": [
+         "Desc": "prod features",
+         "features": [
             {
-               "id": 1,
-               "itemName": "faAngular"
+               "id": "1",
+               "name": "angular",
+               "situation": "active",
+               "unveilBlog": true,
+               "unveilShorts": true,
+               "unveilComments": true,
+               "allowEdit": true,
+               "exhibitFormat": "left-right"
             },
             {
-               "id": 2,
-               "itemName": "faJs"
+               "id": "2",
+               "name": "javascript",
+               "situation": "inactive",
+               "unveilBlog": true,
+               "unveilShorts": false,
+               "unveilComments": false,
+               "allowEdit": false,
+               "exhibitFormat": "left-right"
             },
             {
-               "id": 3,
-               "itemName": "faNodeJs"
-            },
-            {
-               "id": 4,
-               "itemName": "faCss"
+               "id": "3",
+               "name": "rxjs",
+               "situation": "inactive",
+               "unveilBlog": false,
+               "unveilShorts": false,
+               "unveilComments": false,
+               "allowEdit": false,
+               "exhibitFormat": "left-right"
             }
          ]
       }
