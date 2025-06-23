@@ -9,95 +9,54 @@
    },
    "js": [
       {
-         "author": "Natasha T. Mathews",
-         "category": "",
-         "created": "2025-02-28T00:04:50.304Z",
-         "description": "",
-         "id": "79fa9796-4a10-433b-ad45-1ca65eb2c001",
-         "modified": "2025-03-12T00:05:50.304Z",
+         "author": "00spine_heather",
+         "category": [
+            {
+               "display": "Web",
+               "value": "Web"
+            }
+         ],
+         "created": "2025-05-12T23:50:23.622Z",
+         "description": "JavaScript Arrays.",
+         "id": "9febe70d-b036-4ffd-bb73-ac298adfc9a7",
+         "isPublished": true,
+         "modified": "2025-05-12T23:50:23.622Z",
          "pages": [
             {
-               "id": "a1bcb5dc-0307-43db-8a19-819ed97d1699",
-               "subject": "",
+               "comments": [],
+               "subject": "Array filtering",
+               "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
                "paragraphs": [
                   {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-04-01T00:10:50.204Z",
+                     "author": "00spine_heather@icloud.com",
+                     "code": "   onSave(): void {\n      this.blog = this.blogFg.value\n      if (this.action === 'Edit') {\n         this.blogsService.updateAngularBlog(this.blogId, this.blog)\n            .pipe(takeUntil(this.destroy$))\n            .subscribe({\n               next: (res: BlogInterface) => {\n                  this.toastr.success(\n                     res.subTitle,\n                     res.title + 'it was successfully updated.'\n                  )\n               },\n               error: (err) => {\n                  this.toastr.error(err, 'Error saving your reply'\n                  )\n               },\n               complete: () => {\n                  this.toastr.info(\n                     'Observable was destroyed successfully.',\n                     'updateAngularBlog observable destroy$ invoked.',\n                     {\n                        positionClass: 'toast-top-right',\n                        newestOnTop: true\n                     })\n               }\n            })\n      } else {\n         this.blogsService.postBlog(this.blogFg.value.type.at(0).itemName, this.blog)\n            .pipe(takeUntil(this.destroy$))\n            .subscribe({\n               next: (blog: BlogInterface) => setTimeout(() => {\n                  this.toastr.success(\n                     blog.subTitle,\n                     blog.title + 'was successfully created.'\n                  )\n               }),\n               error: (err: HttpErrorResponse) => {\n                  setTimeout(() => this.toastr.error(err.message, 'an error occurred'))\n               },\n               complete: () => {\n                  this.toastr.info(\n                     'Observable was destroyed successfully.',\n                     'JavaScript Blog observable destroy$ invoked.',\n                     {\n                        positionClass: 'toast-top-right',\n                        newestOnTop: true\n                     })\n               }\n            })\n      }\n   }",
+                     "created": "2025-05-18T02:59:39.051Z",
+                     "description": "",
+                     "id": "cd671966-d5f0-4fb0-87fa-c1371f0baa8f",
                      "dataProcessing": [
                         {
                            "id": 2,
                            "itemName": "JavaScript"
                         }
                      ],
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "262b3d2d-8e1e-413f-84ba-6e8cea6e95f7",
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ],
-                     "subTitle": "How to create and implemente a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-04-02T00:05:50.304Z",
-                     "url": "",
                      "venue": [
                         {
                            "id": 1,
                            "itemName": "Definition"
                         }
-                     ]
-                  },
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-04-01T00:10:50.204Z",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
-                        }
                      ],
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "98237f31-ec87-482b-816a-c03c2524095d",
                      "output": "",
                      "status": [
                         {
                            "id": 1,
-                           "itemName": "active"
+                           "itemName": "Active"
                         }
                      ],
-                     "subTitle": "How to create and implemente a custom directive",
+                     "subTitle": "Array filtering",
                      "themeDark": [
                         {
-                           "id": 2,
-                           "itemName": "dracula.css"
+                           "id": 1,
+                           "itemName": "atom-one-dark.css"
                         }
                      ],
                      "themeLight": [
@@ -112,523 +71,65 @@
                            "itemName": "Light"
                         }
                      ],
-                     "title": "Highlight Directive",
+                     "title": "Arrays",
                      "ext": [
                         {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-04-02T00:05:50.304Z",
-                     "url": "",
-                     "venue": [
-                        {
                            "id": 2,
-                           "itemName": "Implementation"
-                        }
-                     ]
-                  },
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-04-01T00:10:50.204Z",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
+                           "itemName": "*.js"
                         }
                      ],
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "b9b0d910-4ed2-489a-871c-f1b22be72e2b",
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ],
-                     "subTitle": "How to create and implemente a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-04-02T00:05:50.304Z",
-                     "url": "",
-                     "venue": [
-                        {
-                           "id": 3,
-                           "itemName": "Unit Test"
-                        }
-                     ]
+                     "updated": "2025-05-18T02:59:39.052Z",
+                     "url": ""
                   }
                ],
                "shorts": {
-                  "author": "Robert M. Hook",
-                  "category": "v18",
-                  "categoryIcon": "faAngular",
-                  "created": "2025-04-01T00:10:50.204Z",
-                  "description": "In this guide, we'll take a look at how to use XMLHttpRequest to issue\n                     HTTP requests in order to exchange data between the website and a server.",
-                  "id": "d07b2350-e578-4253-9a5a-83815af2191e",
-                  "imgName": "xmlHttpRequest-1.jpeg",
-                  "imgPos": "left",
-                  "imgSrc": "../../../assets/img/sections",
-                  "link": "",
-                  "subTitle": "",
-                  "title": "Highlight Directive",
-                  "updated": "2025-04-02T00:05:50.304Z"
-               },
-               "comments": [
-                  {
-                     "created": "2025-03-31T00:04:50.304Z",
-                     "description": "When you read a signal within an OnPush component's template, Angular tracks the signal as a dependency of that component. When the value of that signal changes, Angular automatically marks the component to ensure it gets updated the next time change detection runs. Refer to the Skipping component subtrees guide for more information about OnPush components.",
-                     "dislikes": 0,
-                     "follows": 0,
-                     "hasReplies": false,
-                     "id": "4a816a9f-3186-4ab2-8b91-5e875c17fa5f",
-                     "likes": 0,
-                     "replies": [],
-                     "showReply": false,
-                     "userInfo": {
-                        "given_name": "binary_",
-                        "family_name": "fm",
-                        "nickname": "binary_fm",
-                        "name": "binary_ fm",
-                        "picture": "https://s.gravatar.com/avatar/0420836a103b00f6945dee2ff550e002?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fbf.png",
-                        "updated_at": "2025-03-31T00:01:02.802Z",
-                        "email": "binary_fm@live.com",
-                        "email_verified": true,
-                        "sub": "windowslive|b07f85db2e180713"
+                  "author": "John M. Smithsonian",
+                  "tags": "",
+                  "icon": [
+                     {
+                        "id": 2,
+                        "itemName": "faJs"
                      }
-                  }
-               ]
-            },
-            {
-               "id": "3f16b584-d481-4d53-aa03-16d555321660",
-               "subject": "",
-               "paragraphs": [
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-02-04T00:04:50.304Z",
-                     "dataProcessing": [
-                        {
-                           "id": "1",
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "87c14d82-e5f3-47dc-b3ed-d0bf3a19ba7c",
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ],
-                     "subTitle": "How to create and implemente a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-02-05T00:06:50.304Z",
-                     "url": "",
-                     "venue": [
-                        {
-                           "id": "1",
-                           "itemName": "Declaration"
-                        }
-                     ]
-                  },
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-02-04T00:04:50.304Z",
-                     "dataProcessing": [
-                        {
-                           "id": "1",
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "e8858913-b287-40e4-8a81-23079b6ea5a2",
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ],
-                     "subTitle": "How to create and implemente a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-02-05T00:06:50.304Z",
-                     "url": "",
-                     "venue": [
-                        {
-                           "id": 2,
-                           "itemName": "Implementation"
-                        }
-                     ]
-                  },
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-02-04T00:04:50.304Z",
-                     "dataProcessing": [
-                        {
-                           "id": "1",
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "b66f516f-9cba-47eb-a1f9-36442f9372d9",
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ],
-                     "subTitle": "How to create and implemente a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-02-05T00:06:50.304Z",
-                     "url": "",
-                     "venue": [
-                        {
-                           "id": 3,
-                           "itemName": "Unit test"
-                        }
-                     ]
-                  }
-               ],
-               "shorts": {
-                  "author": "Robert M. Hook",
-                  "category": "v18",
-                  "categoryIcon": "faAngular",
-                  "created": "2025-04-01T00:10:50.204Z",
-                  "description": "In this guide, we'll take a look at how to use XMLHttpRequest to issue\n                     HTTP requests in order to exchange data between the website and a server.",
-                  "id": "c4636d58-d01b-4711-b93b-1e2d7939f874",
-                  "imgName": "xmlHttpRequest-1.jpeg",
-                  "imgPos": "left",
-                  "imgSrc": "../../../assets/img/sections",
+                  ],
+                  "created": "2025-05-12T23:50:23.653Z",
+                  "description": "Array filtering",
+                  "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
+                  "imgPosition": [
+                     {
+                        "id": 2,
+                        "itemName": "Right"
+                     }
+                  ],
+                  "imgSource": "./assets/img/blog/placeholder_dev.png",
                   "link": "",
-                  "subTitle": "",
-                  "title": "Highlight Directive",
-                  "updated": "2025-04-02T00:05:50.304Z"
-               },
-               "comments": []
-            },
-            {
-               "id": "d6ac9c03-60c4-419c-9339-097ac16ea24a",
-               "subject": "",
-               "paragraphs": [
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-02-04T00:04:50.304Z",
-                     "dataProcessing": [
-                        {
-                           "id": "1",
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "90af3d6f-2c7b-42fe-9c77-fe26312d90f4",
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ],
-                     "subTitle": "How to create and implemente a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-02-05T00:06:50.304Z",
-                     "url": "",
-                     "venue": [
-                        {
-                           "id": "1",
-                           "itemName": "Declaration"
-                        }
-                     ]
-                  },
-                  {
-                     "id": "62a75e1c-f2ac-44c3-bcdd-825ac1b86a73",
-                     "author": "Fernando Mathews",
-                     "created": "2025-02-04T00:04:50.304Z",
-                     "updated": "2025-02-05T00:06:50.304Z",
-                     "venue": [
-                        {
-                           "id": 2,
-                           "itemName": "Implementation"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "subTitle": "How to create and implemente a custom directive",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "dataProcessing": [
-                        {
-                           "id": "1",
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "output": "",
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "url": "",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ]
-                  },
-                  {
-                     "id": "543845c2-cdcb-478b-b556-415047eddbb7",
-                     "author": "Fernando Mathews",
-                     "created": "2025-02-04T00:04:50.304Z",
-                     "updated": "2025-02-05T00:06:50.304Z",
-                     "venue": [
-                        {
-                           "id": 3,
-                           "itemName": "Unit test"
-                        }
-                     ],
-                     "title": "Highlight Directive",
-                     "subTitle": "How to create and implemente a custom directive",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "dataProcessing": [
-                        {
-                           "id": "1",
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "output": "",
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "url": "",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "active"
-                        }
-                     ]
-                  }
-               ],
-               "shorts": {
-                  "author": "Robert M. Hook",
-                  "category": "v18",
-                  "categoryIcon": "faAngular",
-                  "created": "2025-02-04T00:04:50.304Z",
-                  "description": "In this guide, we'll take a look at how to use XMLHttpRequest to issue\n                     HTTP requests in order to exchange data between the website and a server.",
-                  "id": "91776613-eb2e-4aa2-9f64-37724e22537b",
-                  "imgName": "xmlHttpRequest-1.jpeg",
-                  "imgPos": "left",
-                  "imgSrc": "../../../assets/img/sections",
-                  "link": "",
-                  "subTitle": "",
-                  "title": "Highlight Directive",
-                  "updated": "2025-02-05T00:06:50.304Z"
-               },
-               "comments": [
-                  {
-                     "id": "4a816a9f-3186-4ab2-8b91-5e875c17fa5f",
-                     "userInfo": {
-                        "given_name": "binary_",
-                        "family_name": "fm",
-                        "nickname": "binary_fm",
-                        "name": "binary_ fm",
-                        "picture": "https://s.gravatar.com/avatar/0420836a103b00f6945dee2ff550e002?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fbf.png",
-                        "updated_at": "2025-03-31T00:01:02.802Z",
-                        "email": "binary_fm@live.com",
-                        "email_verified": true,
-                        "sub": "windowslive|b07f85db2e180713"
-                     },
-                     "description": "When you read a signal within an OnPush component's template, Angular tracks the signal as a dependency of that component. When the value of that signal changes, Angular automatically marks the component to ensure it gets updated the next time change detection runs. Refer to the Skipping component subtrees guide for more information about OnPush components.",
-                     "created": "2025-03-31T00:04:50.304Z",
-                     "likes": 0,
-                     "dislikes": 0,
-                     "follows": 0,
-                     "showReply": false,
-                     "hasReplies": false,
-                     "replies": []
-                  }
-               ]
+                  "subTitle": "Array filtering",
+                  "title": "Arrays ops",
+                  "modified": "2025-05-12T23:50:23.653Z"
+               }
             }
          ],
-         "subTitle": "ECMAScript 2015",
+         "status": "option1",
+         "subTitle": "Arrays",
          "tags": [
-            "js",
-            "ui",
-            "front-end"
+            {
+               "display": "web",
+               "value": "web"
+            }
          ],
-         "title": "Arrays",
+         "title": "JavaScript filtering array",
          "type": [
             {
-               "id": 2,
-               "itemName": "Js"
+               "id": 1,
+               "itemName": "js"
             }
          ],
-         "ver": "ES5"
+         "ver": [
+            {
+               "display": "ES6",
+               "value": "ES6"
+            }
+
+         ]
       }
    ],
    "ng": [
@@ -2198,10 +1699,11 @@
       }
    ],
    "rxjs": [],
+   "ngrx": [],
    "metadata": [
       {
          "id": "100",
-         "Desc": "Blog drop-down options",
+         "desc": "Blog drop-down options",
          "iconsOptions": [
             {
                "id": 1,
