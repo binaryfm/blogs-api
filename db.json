@@ -23,7 +23,7 @@
          "modified": "2025-05-12T23:50:23.622Z",
          "pages": [
             {
-               "comments": [],
+               "comments": [ ],
                "subject": "Array filtering",
                "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
                "paragraphs": [
@@ -128,7 +128,6 @@
                "display": "ES6",
                "value": "ES6"
             }
-
          ]
       }
    ],
@@ -156,7 +155,7 @@
                      "hasReplies": false,
                      "id": "4a816a9f-3186-4ab2-8b91-5e875c17fa5f",
                      "likes": 1,
-                     "replies": [],
+                     "replies": [ ],
                      "showReply": false,
                      "userInfo": {
                         "given_name": "binary_",
@@ -178,7 +177,7 @@
                      "hasReplies": false,
                      "id": "2d212014-1552-4260-b5b6-9018787f215a",
                      "likes": 1,
-                     "replies": [],
+                     "replies": [ ],
                      "showReply": false,
                      "userInfo": {
                         "nickname": "00spine_heather",
@@ -232,7 +231,6 @@
                      }
                   }
                ],
-               "subject": "Highlight directive page",
                "id": "5d5e8d08-f6ec-481e-9b9b-3df0d364f0ee",
                "paragraphs": [
                   {
@@ -421,7 +419,8 @@
                   "subTitle": "Directives are attractive",
                   "tags": "v18",
                   "title": "Highlight Directive"
-               }
+               },
+               "subject": "Highlight directive page"
             },
             {
                "comments": [
@@ -433,7 +432,7 @@
                      "hasReplies": false,
                      "id": "e70d3bdb-d822-4b16-8cf2-51fdac45e965",
                      "likes": 1,
-                     "replies": [],
+                     "replies": [ ],
                      "showReply": false,
                      "userInfo": {
                         "given_name": "TheBinary0101",
@@ -447,7 +446,6 @@
                      }
                   }
                ],
-               "subject": "TitleCase directive declaration page",
                "id": "8b498153-6541-4a19-a28e-2ff5b61a88dc",
                "paragraphs": [
                   {
@@ -623,7 +621,7 @@
                         "itemName": "faAngular"
                      }
                   ],
-                  "id": "1x049014-0053-4260-b5b6-9018787f215a",
+                  "id": "56b2f7d6-d55a-4e61-be51-d370eb34c8b5",
                   "imgPosition": [
                      {
                         "id": 2,
@@ -638,10 +636,11 @@
                      "v18"
                   ],
                   "title": "TitleCase Directive"
-               }
+               },
+               "subject": "TitleCase directive declaration page"
             },
             {
-               "comments": [],
+               "comments": [ ],
                "id": "1w782035-0048-4260-b5b6-9018787f2003",
                "paragraphs": [
                   {
@@ -854,716 +853,6 @@
          ]
       },
       {
-         "author": "Fernando Mathews",
-         "category": [
-            "Service",
-            "DI"
-         ],
-         "created": "2025-03-10T00:04:10.802Z",
-         "description": "Service is a broad category encompassing any value, function, or feature that an application needs.",
-         "id": "4a816a9f-0002-4ab2-8b91-5e875c17f102",
-         "isPublished": true,
-         "modified": "2025-03-28T00:07:23.802Z",
-         "pages": [
-            {
-               "comments": [
-                  {
-                     "created": "2025-03-31T00:04:50.304Z",
-                     "description": "When you read a signal within an OnPush component's template, Angular tracks the signal as a dependency of that component. When the value of that signal changes, Angular automatically marks the component to ensure it gets updated the next time change detection runs. Refer to the Skipping component subtrees guide for more information about OnPush components.",
-                     "dislikes": 0,
-                     "follows": 0,
-                     "hasReplies": false,
-                     "id": "4a816a9f-3186-4ab2-8b91-5e875c17fa5f",
-                     "likes": 0,
-                     "replies": [],
-                     "showReply": false,
-                     "userInfo": {
-                        "picture": "https://s.gravatar.com/avatar/0420836a103b00f6945dee2ff550e002?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fbf.png"
-                     }
-                  },
-                  {
-                     "created": "2025-03-30T23:22:57.869Z",
-                     "description": "Computed signals are both lazily evaluated and memoized\ndoubleCount's derivation function does not run to calculate its value until the first time you read doubleCount. The calculated value is then cached, and if you read doubleCount again, it will return the cached value without recalculating.",
-                     "dislikes": 0,
-                     "follows": 0,
-                     "hasReplies": false,
-                     "id": "2d212014-1552-4260-b5b6-9018787f215a",
-                     "likes": 0,
-                     "replies": [],
-                     "showReply": false,
-                     "userInfo": {
-                        "picture": "https://s.gravatar.com/avatar/eaa7ac67af96ab23a25f69e62ebfbe7d?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2F00.png"
-                     }
-                  },
-                  {
-                     "created": "2025-03-30T23:00:04.292Z",
-                     "description": "Angular Signals - Angular Signals is a system that granularly tracks how and where your state is used throughout an application, allowing the framework to optimize rendering updates.",
-                     "dislikes": 0,
-                     "follows": 0,
-                     "hasReplies": false,
-                     "id": "5558f84b-da49-43ee-b7ea-0216080b5a9b",
-                     "likes": 0,
-                     "replies": [],
-                     "showReply": false,
-                     "userInfo": {
-                        "picture": "https://lh3.googleusercontent.com/a/ACg8ocKOkRmFPOqSFUSwkHyJn6412u01l83_0GXhJ9kafEX2xZDUZGc=s96-c"
-                     }
-                  }
-               ],
-               "id": "3m982014-0048-4260-b5b6-9018787f215a",
-               "paragraphs": [
-                  {
-                     "author": "Fernando V. Mathews",
-                     "code": "import { Injectable } from \"@angular/core\"\nimport { HttpClient } from \"@angular/common/http\"\nimport {\n   map,\n   Observable\n} from \"rxjs\"\nimport {\n   BlogFooterInterface,\n   BlogInterface, MetadataInterface\n} from \"../../../models/blogInterface\"\n\n@Injectable()\nexport class BlogsService {\n   \n   constructor(private http: HttpClient) {\n   }\n   \n   /**\n    * GET: Metadata by Id\n    * @param {string} id\n    * @returns {Observable<MetadataInterface>}\n    */\n   getMetadataById(id: string): Observable<MetadataInterface> {\n      return this.http.get<MetadataInterface>('http://localhost:3000/api/metadata/' + id)\n   }\n   \n   /**\n    * GET: All Angular blogs\n    */\n   getBlogByName(blog: string): Observable<BlogInterface[]> {\n      return this.http.get<BlogInterface[]>('http://localhost:3000/' + blog)\n   }\n   \n   /**\n    * GET: All Angular blogs\n    */\n   getAngularBlogs(): Observable<BlogInterface[]> {\n      return this.http.get<BlogInterface[]>('http://localhost:3000/ng')\n   }\n   \n   /**\n    * GET: All blogs\n    * @returns {Observable<BlogInterface[]>}\n    */\n   getBlogsSorted(blog: string): Observable<BlogInterface[]> {\n      return this.http.get<BlogInterface[]>('http://localhost:3000/' + blog)\n         .pipe(\n            map((response) => response.sort((a: BlogInterface, b: BlogInterface) => {\n               return new Date(a.modified).getDate() - new Date(b.modified).getDate()\n            })\n               .reverse())\n         )\n   }\n",
-                     "created": "2025-02-27T00:04:50.304Z",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th. Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com writes about how I criticize and then distance myself from “celebrity straw men” with the line “celebrities be making money.\nFernando Mathews",
-                     "id": "d7a08987-d4ed-4bef-98f6-d31ba5aad839",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 1,
-                           "itemName": "Definition"
-                        }
-                     ],
-                     "output": "output one",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "How to create and implement a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 1,
-                           "itemName": "atom-one-dark.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Http Service",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-02-28T00:06:50.304Z",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adfc300"
-                  },
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "import { Injectable } from \"@angular/core\"\nimport { HttpClient } from \"@angular/common/http\"\nimport {\n   map,\n   Observable\n} from \"rxjs\"\nimport {\n   BlogFooterInterface,\n   BlogInterface, MetadataInterface\n} from \"../../../models/blogInterface\"\n\n@Injectable()\nexport class BlogsService {\n   \n   constructor(private http: HttpClient) {\n   }\n   \n   /**\n    * GET: Metadata by Id\n    * @param {string} id\n    * @returns {Observable<MetadataInterface>}\n    */\n   getMetadataById(id: string): Observable<MetadataInterface> {\n      return this.http.get<MetadataInterface>('http://localhost:3000/api/metadata/' + id)\n   }\n   \n   /**\n    * GET: All Angular blogs\n    */\n   getBlogByName(blog: string): Observable<BlogInterface[]> {\n      return this.http.get<BlogInterface[]>('http://localhost:3000/' + blog)\n   }\n   \n   /**\n    * GET: All Angular blogs\n    */\n   getAngularBlogs(): Observable<BlogInterface[]> {\n      return this.http.get<BlogInterface[]>('http://localhost:3000/ng')\n   }\n   \n   /**\n    * GET: All blogs\n    * @returns {Observable<BlogInterface[]>}\n    */\n   getBlogsSorted(blog: string): Observable<BlogInterface[]> {\n      return this.http.get<BlogInterface[]>('http://localhost:3000/' + blog)\n         .pipe(\n            map((response) => response.sort((a: BlogInterface, b: BlogInterface) => {\n               return new Date(a.modified).getDate() - new Date(b.modified).getDate()\n            })\n               .reverse())\n         )\n   }\n   \n   /**\n    * GET: Angular blog by Id\n    * @param blog\n    * @param id unique identifier\n    */\n   getBlogById(blog: string, id: string): Observable<BlogInterface> {\n      return this.http.get<BlogInterface>(`http://localhost:3000/${ blog }/${ id }`)\n   }\n   \n   /**\n    * UPDATE: Angular blog\n    * @param id\n    * @param updateBody\n    */\n   updateAngularBlog(id: string, updateBody: BlogInterface): Observable<BlogInterface> {\n      return this.http.put<BlogInterface>(`http://localhost:3000/ng/${ id }`, updateBody)\n   }\n   \n   getJavascri",
-                     "created": "2025-03-25T00:04:50.304Z",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "fda2e9b9-2a70-41f6-9e6c-b93c7f80308a",
-                     "dataProcessing": [
-                        {
-                           "id": 2,
-                           "itemName": "JavaScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 2,
-                           "itemName": "Implementation"
-                        }
-                     ],
-                     "output": "output two",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "How to create and implement a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Http Service",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-03-26T00:06:50.304Z",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adf5577"
-                  },
-                  {
-                     "author": "Fernando Mathews",
-                     "code": "   ngOnInit() {\n      const body = document.getElementsByTagName( 'body' )[0];\n      body.classList.add( 'blog-posts' );\n      const navbar = document.getElementsByTagName( 'nav' )[0];\n      navbar.classList.remove( 'navbar-transparent' );\n      navbar.classList.add( 'bg-danger' );\n      \n      this.articlesService.getAngularBlog().subscribe( blog => {\n         this.articles = blog[0].articles;\n         console.log('articles: ', blog[0].articles);\n      } )\n   }",
-                     "created": "2025-04-01T00:04:50.304Z",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "b14914bd-6d33-43a8-962a-bd359cb761a9",
-                     "dataProcessing": [
-                        {
-                           "id": 2,
-                           "itemName": "JavaScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 3,
-                           "itemName": "Unit test"
-                        }
-                     ],
-                     "output": "output three",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "How to create and implements a custom directive",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Http Service",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-04-02T00:06:50.304Z",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adf5987"
-                  }
-               ],
-               "shorts": {
-                  "author": "Fernando Mathews",
-                  "created": "2025-04-05T00:04:50.304Z",
-                  "description": "In this guide, we'll take a look at how to use XMLHttpRequest to issue HTTP requests in order to exchange data between the website and a server.",
-                  "icon": [
-                     {
-                        "id": 2,
-                        "itemName": "faJs"
-                     }
-                  ],
-                  "id": "6bci2741-0056-4260-b5b6-9018787f215a",
-                  "imgPosition": [
-                     {
-                        "id": 1,
-                        "itemName": "Left"
-                     }
-                  ],
-                  "imgSource": "../../../assets/img/sections/xmlHttpRequest-1.jpeg",
-                  "link": "/blog/ng/4a816a9f-0002-4ab2-8b91-5e875c17f102/page/3m982014-0048-4260-b5b6-9018787f215a",
-                  "modified": "2025-04-06T00:06:50.304Z",
-                  "subTitle": "Fetch Data with http service",
-                  "tags": [
-                     "v18"
-                  ],
-                  "title": "HTTP Service"
-               },
-               "subject": "Http Service"
-            }
-         ],
-         "status": "option1",
-         "subTitle": "Introduction to services and dependency injection",
-         "tags": [
-            {
-               "display": "ng",
-               "value": "ng"
-            },
-            {
-               "display": "UI",
-               "value": "UI"
-            }
-         ],
-         "title": "Angular Services",
-         "type": [
-            {
-               "id": 1,
-               "itemName": "ng"
-            }
-         ],
-         "ver": [
-            "v18"
-         ]
-      },
-      {
-         "author": "Juliet S. Willkenson",
-         "category": [
-            {
-               "display": "Pipes",
-               "value": "Pipes"
-            },
-            {
-               "display": "Html",
-               "value": "Html"
-            }
-         ],
-         "created": "2025-03-20T08:01:02.802Z",
-         "description": "Angular pipes are special operators used in template expressions to transform data declaratively.",
-         "id": "4a816a9f-0003-4ab2-8b91-5e875c17f103",
-         "isPublished": false,
-         "modified": "2025-03-01T09:01:02.802Z",
-         "pages": [
-            {
-               "comments": [
-                  {
-                     "created": "2025-03-31T00:04:50.304Z",
-                     "description": "When you read a signal within an OnPush component's template, Angular tracks the signal as a dependency of that component. When the value of that signal changes, Angular automatically marks the component to ensure it gets updated the next time change detection runs. Refer to the Skipping component subtrees guide for more information about OnPush components.",
-                     "dislikes": 0,
-                     "follows": 0,
-                     "hasReplies": false,
-                     "id": "4a816a9f-3186-4ab2-8b91-5e875c17fa5f",
-                     "likes": 0,
-                     "replies": [],
-                     "showReply": false,
-                     "userInfo": {
-                        "picture": "https://s.gravatar.com/avatar/0420836a103b00f6945dee2ff550e002?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fbf.png"
-                     }
-                  },
-                  {
-                     "created": "2025-03-30T23:22:57.869Z",
-                     "description": "Computed signals are both lazily evaluated and memoized\ndoubleCount's derivation function does not run to calculate its value until the first time you read doubleCount. The calculated value is then cached, and if you read doubleCount again, it will return the cached value without recalculating.",
-                     "dislikes": 0,
-                     "follows": 0,
-                     "hasReplies": false,
-                     "id": "2d212014-1552-4260-b5b6-9018787f215a",
-                     "likes": 0,
-                     "replies": [],
-                     "showReply": false,
-                     "userInfo": {
-                        "picture": "https://s.gravatar.com/avatar/eaa7ac67af96ab23a25f69e62ebfbe7d?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2F00.png"
-                     }
-                  },
-                  {
-                     "created": "2025-03-30T23:00:04.292Z",
-                     "description": "Angular Signals - Angular Signals is a system that granularly tracks how and where your state is used throughout an application, allowing the framework to optimize rendering updates.",
-                     "dislikes": 0,
-                     "follows": 0,
-                     "hasReplies": false,
-                     "id": "5558f84b-da49-43ee-b7ea-0216080b5a9b",
-                     "likes": 0,
-                     "replies": [],
-                     "showReply": false,
-                     "userInfo": {
-                        "picture": "https://lh3.googleusercontent.com/a/ACg8ocKOkRmFPOqSFUSwkHyJn6412u01l83_0GXhJ9kafEX2xZDUZGc=s96-c"
-                     }
-                  }
-               ],
-               "subject": "Http Service",
-               "id": "7ab50259-e0e7-4cb7-9be6-9523a164e45d",
-               "paragraphs": [
-                  {
-                     "author": "James L. Brendanford",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-04-05T00:04:50.304Z",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "b483b8f8-f7ce-4f3e-be3a-881fd2735850",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 1,
-                           "itemName": "Declaration"
-                        }
-                     ],
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "How to render currency with a currency pipe",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Currency Pipe",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-04-06T00:06:50.304Z",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adfc9a7"
-                  },
-                  {
-                     "author": "James L. Brendanford",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-04-05T00:04:50.304Z",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "c7490af3-e0c7-4f11-adad-39355a46c676",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 2,
-                           "itemName": "Implementation"
-                        }
-                     ],
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "How to render currency with a currency pipe",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Currency Pipe ",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "2025-04-06T00:06:50.304Z",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adfc9a7"
-                  },
-                  {
-                     "author": "James L. Brendanford",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-04-05T00:04:50.304Z",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "e670378d-a7c8-48b4-833a-5b975b58a348",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 3,
-                           "itemName": "Unit test"
-                        }
-                     ],
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "How to render currency with a currency pipe",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Currency Pipe",
-                     "ext": [
-                        {
-                           "id": 4,
-                           "itemName": "*.spec.ts"
-                        }
-                     ],
-                     "updated": "2025-04-06T00:06:50.304Z",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adfc9a7"
-                  }
-               ],
-               "shorts": {
-                  "author": "Robert M. Hook",
-                  "tags": [
-                     "v18"
-                  ],
-                  "icon": [
-                     {
-                        "id": 4,
-                        "itemName": "faCss"
-                     }
-                  ],
-                  "created": "2025-04-07T00:04:50.304Z",
-                  "description": "In this guide, we'll take a look at how to use XMLHttpRequest to issue\n                     HTTP requests in order to exchange data between the website and a server.",
-                  "id": "9e1685f9-367a-4761-ae92-a0ffd778f2f8",
-                  "imgPosition": [
-                     {
-                        "id": 1,
-                        "itemName": "Left"
-                     }
-                  ],
-                  "imgSource": "../../../assets/img/sections/xmlHttpRequest-1.jpeg",
-                  "link": "/blog/ng/4a816a9f-0003-4ab2-8b91-5e875c17f103/page/7ab50259-e0e7-4cb7-9be6-9523a164e45d",
-                  "subTitle": "XMLHttpRequest",
-                  "title": "Highlight Directive",
-                  "modified": "2025-04-08T00:06:50.304Z"
-               }
-            },
-            {
-               "comments": [],
-               "subject": "Http Service",
-               "id": "fe0d095b-561c-4c29-8994-23174ef210d8",
-               "paragraphs": [
-                  {
-                     "author": "Juliet S. Willkenson",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "02/20/2020",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "eb20480a-4f8c-48e5-8be3-f52484705f1d",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 1,
-                           "itemName": "Declaration"
-                        }
-                     ],
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "It formats title to all uppercase",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Date Pipe",
-                     "ext": [
-                        {
-                           "id": 1,
-                           "itemName": "*.ts"
-                        }
-                     ],
-                     "updated": "02/21/2020",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adfc9a7"
-                  },
-                  {
-                     "author": "Juliet S. Willkenson",
-                     "code": "   ngOnInit() {\r\n      const body = document.getElementsByTagName( 'body' )[0];\r\n      body.classList.add( 'blog-posts' );\r\n      const navbar = document.getElementsByTagName( 'nav' )[0];\r\n      navbar.classList.remove( 'navbar-transparent' );\r\n      navbar.classList.add( 'bg-danger' );\r\n      \r\n      this.articlesService.getAngularBlog().subscribe( blog => {\r\n         this.articles = blog[0].articles;\r\n         console.log('articles: ', blog[0].articles);\r\n      } )\r\n   }",
-                     "created": "2025-04-09T00:04:50.304Z",
-                     "description": "In the first sentence of Pitchfork’s review of my collaborative project with 9th\n                           Wonder, INDIE 500, a reviewer who is associated with music review site rhapsody.com\n                           writes about how I criticize and then distance myself from “celebrity straw men” with\n                           the line “celebrities be making money...",
-                     "id": "354d1a30-b3fe-4cb9-b9c7-a2db819b7965",
-                     "dataProcessing": [
-                        {
-                           "id": 1,
-                           "itemName": "TypeScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 3,
-                           "itemName": "Unit test"
-                        }
-                     ],
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "It formats title to all uppercase",
-                     "themeDark": [
-                        {
-                           "id": 2,
-                           "itemName": "dracula.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Date Pipe",
-                     "ext": [
-                        {
-                           "id": 4,
-                           "itemName": "*.spec.ts"
-                        }
-                     ],
-                     "updated": "2025-04-10T00:06:50.304Z",
-                     "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adfc9a7"
-                  }
-               ],
-               "shorts": {
-                  "author": "Maria M. Mass",
-                  "tags": [
-                     "v18"
-                  ],
-                  "icon": [
-                     {
-                        "id": 3,
-                        "itemName": "faNodeJs"
-                     }
-                  ],
-                  "created": "2025-04-11T00:04:50.304Z",
-                  "description": "In this guide, we'll take a look at how to use XMLHttpRequest to issue\n                     HTTP requests in order to exchange data between the website and a server.",
-                  "id": "0f33d8c1-a1f8-4915-8559-69a1456fcbc6",
-                  "imgPosition": [
-                     {
-                        "id": 2,
-                        "itemName": "Right"
-                     }
-                  ],
-                  "imgSource": "../../../assets/img/sections/async-function-js.jpeg",
-                  "link": "/blog/ng/4a816a9f-0003-4ab2-8b91-5e875c17f103/page/fe0d095b-561c-4c29-8994-23174ef210d8",
-                  "subTitle": "TitleCase Directive",
-                  "title": "TitleCase Directive",
-                  "modified": "2025-04-12T00:06:50.304Z"
-               }
-            }
-         ],
-         "status": "option1",
-         "subTitle": "Angular provides several built-in pipes in the @angular/common package",
-         "tags": [
-            {
-               "display": "ui",
-               "value": "ui"
-            },
-            {
-               "display": "ng",
-               "value": "ng"
-            },
-            {
-               "display": "pipes",
-               "value": "pipes"
-            }
-         ],
-         "title": "Pipes",
-         "type": [
-            {
-               "id": 1,
-               "itemName": "ng"
-            }
-         ],
-         "ver": [
-            {
-               "display": "v17",
-               "value": "v17"
-            },
-            {
-               "display": "v18",
-               "value": "v18"
-            },
-            {
-               "display": "v19",
-               "value": "v19"
-            }
-         ]
-      },
-      {
          "author": "00spine_heather",
          "category": [
             {
@@ -1578,7 +867,7 @@
          "modified": "2025-05-12T23:50:23.622Z",
          "pages": [
             {
-               "comments": [],
+               "comments": [ ],
                "subject": "Writable signal",
                "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
                "paragraphs": [
@@ -1698,8 +987,8 @@
          ]
       }
    ],
-   "rxjs": [],
-   "ngrx": [],
+   "rxjs": [ ],
+   "ngrx": [ ],
    "metadata": [
       {
          "id": "100",
@@ -1878,43 +1167,89 @@
    ],
    "features": [
       {
-         "id": "200",
-         "description": "dev features",
          "features": [
             {
                "allowEdit": true,
+               "blogs": [
+                  {
+                     "id": "71075ea0-ec8b-4fff-bd1d-a768d2edabbc",
+                     "unveilBlog": true,
+                     "pages": [
+                        {
+                           "id": "5d5e8d08-f6ec-481e-9b9b-3df0d364f0ee",
+                           "shorts": {
+                              "id": "2o212014-0046-4260-b5b6-9018787f215a",
+                              "unveilShort": true
+                           },
+                           "subject": "Highlight directive page",
+                           "unveilPage": true
+                        },
+                        {
+                           "id": "8b498153-6541-4a19-a28e-2ff5b61a88dc",
+                           "shorts": {
+                              "id": "56b2f7d6-d55a-4e61-be51-d370eb34c8b5",
+                              "unveilShort": true
+                           },
+                           "subject": "TitleCase directive declaration page",
+                           "unveilPage": true
+                        },
+                        {
+                           "id": "1w782035-0048-4260-b5b6-9018787f2003",
+                           "shorts": {
+                              "id": "2w012096-0052-4260-b5b6-9018787f215a",
+                              "unveilShort": true
+                           },
+                           "subject": "Employee Name directive page",
+                           "unveilPage": true
+                        }
+                     ]
+                  },
+                  {
+                     "id": "9febe70d-b036-4ffd-bb73-ac298adfc9a7",
+                     "unveilBlog": true,
+                     "pages": [
+                        {
+                           "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
+                           "shorts": {
+                              "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
+                              "unveilShort": true
+                           },
+                           "subject": "Writable signal",
+                           "unveilPage": true
+                        }
+                     ]
+                  }
+               ],
                "exhibitFormat": "left-right",
-               "id": "1",
+               "id": "a083df72-74b6-4538-8916-f8fd652dc5ca",
                "name": "ng",
                "situation": "active",
                "type": "blog",
-               "unveilBlog": true,
-               "unveilComments": true,
-               "unveilShorts": true
+               "unvailFeature": true
             },
             {
                "allowEdit": true,
-               "exhibitFormat": "left-right",
-               "id": "2",
+               "blogs": [ ],
+               "exhibitFormat": "right-left",
+               "id": "feef8e04-2c7b-4883-a7d8-3c571a8a2bed",
                "name": "js",
                "situation": "active",
                "type": "blog",
-               "unveilBlog": true,
-               "unveilComments": false,
-               "unveilShorts": true
+               "unvailFeature": true
             },
             {
                "allowEdit": true,
-               "exhibitFormat": "cards",
-               "id": "3",
+               "blogs": [ ],
+               "exhibitFormat": "left-right",
+               "id": "283ac091-c4b3-4da0-9ef8-3cb78ef9a5c1",
                "name": "rxjs",
                "situation": "inactive",
                "type": "blog",
-               "unveilBlog": false,
-               "unveilComments": false,
-               "unveilShorts": false
+               "unvailFeature": true
             }
-         ]
+         ],
+         "id": "200",
+         "name": "angular"
       },
       {
          "id": "300",
