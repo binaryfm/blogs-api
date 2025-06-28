@@ -1169,6 +1169,22 @@
       {
          "features": {
             "allowEdit": true,
+            "blogs": [ ],
+            "id": "4c2229c7-6c28-44cb-8a0e-c053d8d4b8ce",
+            "name": "Sections features",
+            "situation": "active",
+            "type": "sections",
+            "unvailHeaders": true,
+            "unvailBlogs": true,
+            "unvailProjects": false,
+            "unvailContacts": false
+         },
+         "id": "101",
+         "name": "sections"
+      },
+      {
+         "features": {
+            "allowEdit": true,
             "blogs": [
                {
                   "groupTitle": "Angular Directives",
@@ -1177,6 +1193,7 @@
                      {
                         "id": "5d5e8d08-f6ec-481e-9b9b-3df0d364f0ee",
                         "shorts": {
+                           "exhibitFormat": "left-right",
                            "id": "2o212014-0046-4260-b5b6-9018787f215a",
                            "unveilShort": true
                         },
@@ -1186,6 +1203,7 @@
                      {
                         "id": "8b498153-6541-4a19-a28e-2ff5b61a88dc",
                         "shorts": {
+                           "exhibitFormat": "right-left",
                            "id": "56b2f7d6-d55a-4e61-be51-d370eb34c8b5",
                            "unveilShort": true
                         },
@@ -1195,6 +1213,7 @@
                      {
                         "id": "1w782035-0048-4260-b5b6-9018787f2003",
                         "shorts": {
+                           "exhibitFormat": "left-right",
                            "id": "2w012096-0052-4260-b5b6-9018787f215a",
                            "unveilShort": true
                         },
@@ -1211,6 +1230,7 @@
                      {
                         "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
                         "shorts": {
+                           "exhibitFormat": "left-right",
                            "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
                            "unveilShort": true
                         },
@@ -1221,12 +1241,11 @@
                   "unveilBlog": true
                }
             ],
-            "exhibitFormat": "left-right",
             "id": "a083df72-74b6-4538-8916-f8fd652dc5ca",
             "name": "angular features",
             "situation": "active",
             "type": "blog",
-            "unvailHeaders": true,
+            "unvailHeaders": false,
             "unvailBlogs": true,
             "unvailProjects": false,
             "unvailContacts": false
@@ -1238,12 +1257,11 @@
          "features": {
             "allowEdit": true,
             "blogs": [ ],
-            "exhibitFormat": "right-left",
             "id": "feef8e04-2c7b-4883-a7d8-3c571a8a2bed",
-            "name": "js",
+            "name": "JavaScript features",
             "situation": "active",
             "type": "blog",
-            "unvailHeaders": true,
+            "unvailHeaders": false,
             "unvailBlogs": true,
             "unvailProjects": false,
             "unvailContacts": false
