@@ -1167,128 +1167,89 @@
    ],
    "features": [
       {
-         "features": [
-            {
-               "allowEdit": true,
-               "blogs": [
-                  {
-                     "id": "71075ea0-ec8b-4fff-bd1d-a768d2edabbc",
-                     "unveilBlog": true,
-                     "pages": [
-                        {
-                           "id": "5d5e8d08-f6ec-481e-9b9b-3df0d364f0ee",
-                           "shorts": {
-                              "id": "2o212014-0046-4260-b5b6-9018787f215a",
-                              "unveilShort": true
-                           },
-                           "subject": "Highlight directive page",
-                           "unveilPage": true
+         "features": {
+            "allowEdit": true,
+            "blogs": [
+               {
+                  "groupTitle": "Angular Directives",
+                  "id": "71075ea0-ec8b-4fff-bd1d-a768d2edabbc",
+                  "pages": [
+                     {
+                        "id": "5d5e8d08-f6ec-481e-9b9b-3df0d364f0ee",
+                        "shorts": {
+                           "id": "2o212014-0046-4260-b5b6-9018787f215a",
+                           "unveilShort": true
                         },
-                        {
-                           "id": "8b498153-6541-4a19-a28e-2ff5b61a88dc",
-                           "shorts": {
-                              "id": "56b2f7d6-d55a-4e61-be51-d370eb34c8b5",
-                              "unveilShort": true
-                           },
-                           "subject": "TitleCase directive declaration page",
-                           "unveilPage": true
+                        "subject": "Highlight directive page",
+                        "unveilPage": true
+                     },
+                     {
+                        "id": "8b498153-6541-4a19-a28e-2ff5b61a88dc",
+                        "shorts": {
+                           "id": "56b2f7d6-d55a-4e61-be51-d370eb34c8b5",
+                           "unveilShort": true
                         },
-                        {
-                           "id": "1w782035-0048-4260-b5b6-9018787f2003",
-                           "shorts": {
-                              "id": "2w012096-0052-4260-b5b6-9018787f215a",
-                              "unveilShort": true
-                           },
-                           "subject": "Employee Name directive page",
-                           "unveilPage": true
-                        }
-                     ]
-                  },
-                  {
-                     "id": "9febe70d-b036-4ffd-bb73-ac298adfc9a7",
-                     "unveilBlog": true,
-                     "pages": [
-                        {
-                           "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
-                           "shorts": {
-                              "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
-                              "unveilShort": true
-                           },
-                           "subject": "Writable signal",
-                           "unveilPage": true
-                        }
-                     ]
-                  }
-               ],
-               "exhibitFormat": "left-right",
-               "id": "a083df72-74b6-4538-8916-f8fd652dc5ca",
-               "name": "ng",
-               "situation": "active",
-               "type": "blog",
-               "unvailFeature": true
-            },
-            {
-               "allowEdit": true,
-               "blogs": [ ],
-               "exhibitFormat": "right-left",
-               "id": "feef8e04-2c7b-4883-a7d8-3c571a8a2bed",
-               "name": "js",
-               "situation": "active",
-               "type": "blog",
-               "unvailFeature": true
-            },
-            {
-               "allowEdit": true,
-               "blogs": [ ],
-               "exhibitFormat": "left-right",
-               "id": "283ac091-c4b3-4da0-9ef8-3cb78ef9a5c1",
-               "name": "rxjs",
-               "situation": "inactive",
-               "type": "blog",
-               "unvailFeature": true
-            }
-         ],
-         "id": "200",
-         "name": "angular"
+                        "subject": "TitleCase directive declaration page",
+                        "unveilPage": true
+                     },
+                     {
+                        "id": "1w782035-0048-4260-b5b6-9018787f2003",
+                        "shorts": {
+                           "id": "2w012096-0052-4260-b5b6-9018787f215a",
+                           "unveilShort": true
+                        },
+                        "subject": "Employee Name directive page",
+                        "unveilPage": true
+                     }
+                  ],
+                  "unveilBlog": true
+               },
+               {
+                  "groupTitle": "Angular Signals",
+                  "id": "9febe70d-b036-4ffd-bb73-ac298adfc9a7",
+                  "pages": [
+                     {
+                        "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
+                        "shorts": {
+                           "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
+                           "unveilShort": true
+                        },
+                        "subject": "Writable signal",
+                        "unveilPage": true
+                     }
+                  ],
+                  "unveilBlog": true
+               }
+            ],
+            "exhibitFormat": "left-right",
+            "id": "a083df72-74b6-4538-8916-f8fd652dc5ca",
+            "name": "angular features",
+            "situation": "active",
+            "type": "blog",
+            "unvailHeaders": true,
+            "unvailBlogs": true,
+            "unvailProjects": false,
+            "unvailContacts": false
+         },
+         "id": "201",
+         "name": "ng"
       },
       {
-         "id": "300",
-         "description": "prod features",
-         "features": [
-            {
-               "allowEdit": true,
-               "exhibitFormat": "left-right",
-               "id": "1",
-               "name": "ng",
-               "situation": "active",
-               "type": "blog",
-               "unveilBlog": true,
-               "unveilComments": true,
-               "unveilShorts": true
-            },
-            {
-               "allowEdit": false,
-               "exhibitFormat": "left-right",
-               "id": "2",
-               "name": "js",
-               "situation": "inactive",
-               "type": "blog",
-               "unveilBlog": true,
-               "unveilComments": false,
-               "unveilShorts": false
-            },
-            {
-               "allowEdit": false,
-               "exhibitFormat": "cards",
-               "id": "3",
-               "name": "rxjs",
-               "situation": "inactive",
-               "type": "blog",
-               "unveilBlog": false,
-               "unveilComments": false,
-               "unveilShorts": false
-            }
-         ]
+         "features": {
+            "allowEdit": true,
+            "blogs": [ ],
+            "exhibitFormat": "right-left",
+            "id": "feef8e04-2c7b-4883-a7d8-3c571a8a2bed",
+            "name": "js",
+            "situation": "active",
+            "type": "blog",
+            "unvailHeaders": true,
+            "unvailBlogs": true,
+            "unvailProjects": false,
+            "unvailContacts": false
+         },
+         "id": "301",
+         "name": "js"
       }
    ]
 }
