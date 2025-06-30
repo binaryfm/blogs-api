@@ -16,117 +16,31 @@
                "value": "Web"
             }
          ],
-         "created": "2025-05-12T23:50:23.622Z",
+         "created": "2025-07-01T23:50:23.622Z",
          "description": "JavaScript Arrays.",
-         "id": "9febe70d-b036-4ffd-bb73-ac298adfc9a7",
+         "id": "1ce5dc29-18b9-41e6-947c-9df3dba35962",
          "isPublished": true,
-         "modified": "2025-05-12T23:50:23.622Z",
-         "pages": [
-            {
-               "comments": [ ],
-               "subject": "Array filtering",
-               "id": "2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
-               "paragraphs": [
-                  {
-                     "author": "00spine_heather@icloud.com",
-                     "code": "   onSave(): void {\n      this.blog = this.blogFg.value\n      if (this.action === 'Edit') {\n         this.blogsService.updateAngularBlog(this.blogId, this.blog)\n            .pipe(takeUntil(this.destroy$))\n            .subscribe({\n               next: (res: BlogInterface) => {\n                  this.toastr.success(\n                     res.subTitle,\n                     res.title + 'it was successfully updated.'\n                  )\n               },\n               error: (err) => {\n                  this.toastr.error(err, 'Error saving your reply'\n                  )\n               },\n               complete: () => {\n                  this.toastr.info(\n                     'Observable was destroyed successfully.',\n                     'updateAngularBlog observable destroy$ invoked.',\n                     {\n                        positionClass: 'toast-top-right',\n                        newestOnTop: true\n                     })\n               }\n            })\n      } else {\n         this.blogsService.postBlog(this.blogFg.value.type.at(0).itemName, this.blog)\n            .pipe(takeUntil(this.destroy$))\n            .subscribe({\n               next: (blog: BlogInterface) => setTimeout(() => {\n                  this.toastr.success(\n                     blog.subTitle,\n                     blog.title + 'was successfully created.'\n                  )\n               }),\n               error: (err: HttpErrorResponse) => {\n                  setTimeout(() => this.toastr.error(err.message, 'an error occurred'))\n               },\n               complete: () => {\n                  this.toastr.info(\n                     'Observable was destroyed successfully.',\n                     'JavaScript Blog observable destroy$ invoked.',\n                     {\n                        positionClass: 'toast-top-right',\n                        newestOnTop: true\n                     })\n               }\n            })\n      }\n   }",
-                     "created": "2025-05-18T02:59:39.051Z",
-                     "description": "",
-                     "id": "cd671966-d5f0-4fb0-87fa-c1371f0baa8f",
-                     "dataProcessing": [
-                        {
-                           "id": 2,
-                           "itemName": "JavaScript"
-                        }
-                     ],
-                     "venue": [
-                        {
-                           "id": 1,
-                           "itemName": "Definition"
-                        }
-                     ],
-                     "output": "",
-                     "status": [
-                        {
-                           "id": 1,
-                           "itemName": "Active"
-                        }
-                     ],
-                     "subTitle": "Array filtering",
-                     "themeDark": [
-                        {
-                           "id": 1,
-                           "itemName": "atom-one-dark.css"
-                        }
-                     ],
-                     "themeLight": [
-                        {
-                           "id": 1,
-                           "itemName": "equilibrium-light.css"
-                        }
-                     ],
-                     "themeType": [
-                        {
-                           "id": 1,
-                           "itemName": "Light"
-                        }
-                     ],
-                     "title": "Arrays",
-                     "ext": [
-                        {
-                           "id": 2,
-                           "itemName": "*.js"
-                        }
-                     ],
-                     "updated": "2025-05-18T02:59:39.052Z",
-                     "url": ""
-                  }
-               ],
-               "shorts": {
-                  "author": "John M. Smithsonian",
-                  "tags": "",
-                  "icon": [
-                     {
-                        "id": 2,
-                        "itemName": "faJs"
-                     }
-                  ],
-                  "created": "2025-05-12T23:50:23.653Z",
-                  "description": "Array filtering",
-                  "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
-                  "imgPosition": [
-                     {
-                        "id": 2,
-                        "itemName": "Right"
-                     }
-                  ],
-                  "imgSource": "./assets/img/blog/placeholder_dev.png",
-                  "link": "",
-                  "subTitle": "Array filtering",
-                  "title": "Arrays ops",
-                  "modified": "2025-05-12T23:50:23.653Z"
-               }
-            }
-         ],
+         "modified": "2025-07-01T23:50:23.622Z",
+         "pages": [],
          "status": "option1",
-         "subTitle": "Arrays",
+         "subTitle": "Array filtering",
          "tags": [
             {
-               "display": "web",
-               "value": "web"
+               "display": "ES6",
+               "value": "ES6"
             }
          ],
-         "title": "JavaScript filtering array",
+         "title": "JavaScript arrays",
          "type": [
             {
-               "id": 1,
+               "id": 2,
                "itemName": "js"
             }
          ],
          "ver": [
             {
-               "display": "ES6",
-               "value": "ES6"
+               "display": "ES7",
+               "value": "ES7"
             }
          ]
       }
@@ -849,7 +763,10 @@
             }
          ],
          "ver": [
-            "v19"
+            {
+               "display": "v18",
+               "value": "v18"
+            }
          ]
       },
       {
@@ -1256,7 +1173,9 @@
       {
          "features": {
             "allowEdit": true,
-            "blogs": [ ],
+            "blogs": [
+               
+            ],
             "id": "feef8e04-2c7b-4883-a7d8-3c571a8a2bed",
             "name": "JavaScript features",
             "situation": "active",
