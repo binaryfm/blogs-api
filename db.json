@@ -790,9 +790,9 @@
                "paragraphs": [
                   {
                      "author": "00spine_heather@icloud.com",
-                     "code": "   onSave(): void {\n      this.blog = this.blogFg.value\n      if (this.action === 'Edit') {\n         this.blogsService.updateAngularBlog(this.blogId, this.blog)\n            .pipe(takeUntil(this.destroy$))\n            .subscribe({\n               next: (res: BlogInterface) => {\n                  this.toastr.success(\n                     res.subTitle,\n                     res.title + 'it was successfully updated.'\n                  )\n               },\n               error: (err) => {\n                  this.toastr.error(err, 'Error saving your reply'\n                  )\n               },\n               complete: () => {\n                  this.toastr.info(\n                     'Observable was destroyed successfully.',\n                     'updateAngularBlog observable destroy$ invoked.',\n                     {\n                        positionClass: 'toast-top-right',\n                        newestOnTop: true\n                     })\n               }\n            })\n      } else {\n         this.blogsService.postBlog(this.blogFg.value.type.at(0).itemName, this.blog)\n            .pipe(takeUntil(this.destroy$))\n            .subscribe({\n               next: (blog: BlogInterface) => setTimeout(() => {\n                  this.toastr.success(\n                     blog.subTitle,\n                     blog.title + 'was successfully created.'\n                  )\n               }),\n               error: (err: HttpErrorResponse) => {\n                  setTimeout(() => this.toastr.error(err.message, 'an error occurred'))\n               },\n               complete: () => {\n                  this.toastr.info(\n                     'Observable was destroyed successfully.',\n                     'JavaScript Blog observable destroy$ invoked.',\n                     {\n                        positionClass: 'toast-top-right',\n                        newestOnTop: true\n                     })\n               }\n            })\n      }\n   }",
+                     "code": "const count = signal(0);\n// Signals are getter functions - calling them reads their value.\nconsole.log('The count is: ' + count());\n\ncount.set(3);\n\n// Increment the count by 1.\ncount.update(value => value + 1);",
                      "created": "2025-05-18T02:59:39.051Z",
-                     "description": "Handles saving the blog data by updating the blog details using the blog service.\nSubscribes to the update operation and performs actions on success, error, and completion.\nUpdates the blog object with form values and provides user feedback through notifications.\n\n@return {void} This method does not return a value.",
+                     "description": "Writable signals provide an API for updating their values directly. You create writable signals by calling the signal function with the signal's initial value:",
                      "id": "cd671966-d5f0-4fb0-87fa-c1371f0baa8f",
                      "dataProcessing": [
                         {
@@ -832,7 +832,7 @@
                            "itemName": "Light"
                         }
                      ],
-                     "title": "Signals",
+                     "title": "Writable (angular) signals",
                      "ext": [
                         {
                            "id": 1,
@@ -841,11 +841,74 @@
                      ],
                      "updated": "2025-05-18T02:59:39.052Z",
                      "url": "/blog-form?action=Edit&blogTitle=Angular&blogId=9febe70d-b036-4ffd-bb73-ac298adfc9a7"
+                  },
+                  {
+                     "author": "00spine_heather",
+                     "code": "count.set(5); // Sets the signal's value to 5",
+                     "created": "2025-07-14T04:13:10.520Z",
+                     "dataProcessing": [
+                        {
+                           "id": 1,
+                           "itemName": "TypeScript"
+                        }
+                     ],
+                     "description": "Writable signals",
+                     "ext": [
+                        {
+                           "id": 1,
+                           "itemName": "*.ts"
+                        }
+                     ],
+                     "id": "83d19d6b-e854-4115-bce5-a8d7bd9f4be9",
+                     "output": "",
+                     "status": [
+                        {
+                           "id": 1,
+                           "itemName": "Active"
+                        }
+                     ],
+                     "subTitle": "Writable signals",
+                     "themeDark": [
+                        {
+                           "id": 2,
+                           "itemName": "dracula.css"
+                        }
+                     ],
+                     "themeLight": [
+                        {
+                           "id": 1,
+                           "itemName": "equilibrium-light.css"
+                        }
+                     ],
+                     "themeType": [
+                        {
+                           "id": 2,
+                           "itemName": "Dark"
+                        }
+                     ],
+                     "title": "Writable signals",
+                     "updated": "2025-07-14T04:13:10.520Z",
+                     "url": "/ng/id",
+                     "venue": [
+                        {
+                           "id": 2,
+                           "itemName": "Implementation"
+                        }
+                     ]
                   }
                ],
                "shorts": {
                   "author": "John M. Smithsonian",
-                  "tags": "",
+                  "tags": [
+                     {
+                        "display": "v18",
+                        "value": "v18"
+                     },
+                     {
+                        "display": "v17",
+                        "value": "v17"
+                     }
+                  ],
                   "icon": [
                      {
                         "id": 1,
@@ -853,7 +916,7 @@
                      }
                   ],
                   "created": "2025-05-12T23:50:23.653Z",
-                  "description": "A signal is a wrapper around a value that notifies interested consumers when that value changes. Signals can contain any value, from primitives to complex data structures. You read a signal's value by calling its getter function, which allows Angular to track where the signal is used. Signals may be either writable or read-only.",
+                  "description": "Writable signals are ideal for managing dynamic data within components, such as counters, form input values, or any piece of state that needs to be directly manipulated and observed for changes throughout the application. ",
                   "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
                   "imgPosition": [
                      {
@@ -861,10 +924,10 @@
                         "itemName": "Right"
                      }
                   ],
-                  "imgSource": "./assets/img/blog/placeholder_dev.png",
+                  "imgSource": "./assets/img/sections/fabio-mangione.jpg",
                   "link": "/blog/ng/9febe70d-b036-4ffd-bb73-ac298adfc9a7/page/2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
-                  "subTitle": "A signal is a wrapper around a value that notifies interested consumers when that value changes. Signals can contain any value, from primitives to complex data structures.",
-                  "title": "Signals",
+                  "subTitle": "Writable Signals",
+                  "title": "Writable Signals",
                   "modified": "2025-05-12T23:50:23.653Z"
                }
             }
