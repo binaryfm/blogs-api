@@ -969,6 +969,82 @@
                "value": "v19"
             }
          ]
+      },
+      {
+         "author": "fmathews28",
+         "category": [
+            {
+               "display": "web",
+               "value": "web"
+            },
+            {
+               "display": "ui",
+               "value": "ui"
+            }
+         ],
+         "created": "2025-07-20T03:46:49.864Z",
+         "description": "Angular pipes are a feature that allows for the transformation of data directly within templates for display purposes. They provide a declarative way to format and manipulate data before it is rendered in the user interface.",
+         "id": "D239DD2E-2FE5-4C0E-B2BB-347C53A9CE60",
+         "isPublished": false,
+         "modified": "2025-07-20T03:46:49.864Z",
+         "pages": [
+            {
+               "comments": [ ],
+               "subject": "Pipes types",
+               "id": "28F753A4-9EA7-4B93-BF71-AE76D281F5B5",
+               "paragraphs": [ ],
+               "shorts": {
+                  "author": "",
+                  "created": "2025-07-20T04:04:43.204Z",
+                  "description": "Pipes are a special operator in Angular template expressions that allows you to transform data declaratively in your template",
+                  "icon": [
+                     {
+                        "id": 1,
+                        "itemName": "faAngular"
+                     }
+                  ],
+                  "id": "18bd9563-a416-4a6c-9843-6fa35abe816a",
+                  "imgPosition": [
+                     {
+                        "id": 2,
+                        "itemName": "Right"
+                     }
+                  ],
+                  "imgSource": "./assets/img/sections/mika-matin.jpg",
+                  "link": "blog/ng/D239DD2E-2FE5-4C0E-B2BB-347C53A9CE60/page/28F753A4-9EA7-4B93-BF71-AE76D281F5B5",
+                  "modified": "2025-07-20T04:04:43.214Z",
+                  "subTitle": "Data transformation",
+                  "tags": [
+                     {
+                        "display": "v18",
+                        "value": "v18"
+                     }
+                  ],
+                  "title": "Data transformation"
+               }
+            }
+         ],
+         "status": "option1",
+         "subTitle": "Pipes are a special operator in Angular template expressions that allows you to transform data declaratively in your template",
+         "tags": [
+            {
+               "display": "ng",
+               "value": "ng"
+            }
+         ],
+         "title": "Pipes",
+         "type": [
+            {
+               "id": 1,
+               "itemName": "ng"
+            }
+         ],
+         "ver": [
+            {
+               "display": "v18",
+               "value": "v18"
+            }
+         ]
       }
    ],
    "rxjs": [ ],
