@@ -174,6 +174,7 @@
                   ],
                   "created": "2025-05-12T23:50:23.653Z",
                   "description": "Writable signals are ideal for managing dynamic data within components, such as counters, form input values, or any piece of state that needs to be directly manipulated and observed for changes throughout the application. ",
+                  "disseminate": true,
                   "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
                   "imgPosition": [
                      {
@@ -250,6 +251,7 @@
                   "author": "",
                   "created": "2025-07-20T04:04:43.204Z",
                   "description": "Pipes are a special operator in Angular template expressions that allows you to transform data declaratively in your template",
+                  "disseminate": false,
                   "icon": [
                      {
                         "id": 1,
