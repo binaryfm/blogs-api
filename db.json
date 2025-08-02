@@ -539,7 +539,7 @@
                         "shorts": {
                            "exhibitFormat": "left-right",
                            "id": "abffbfee-008b-4d03-9908-af7aea6b05b2",
-                           "unveilShort": true
+                           "disseminate": true
                         },
                         "subject": "Writable signal",
                         "unveilPage": true
