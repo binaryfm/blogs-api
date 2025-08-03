@@ -324,20 +324,20 @@
                      "author": "fmathews28",
                      "code": "none",
                      "created": "2025-08-03T01:00:06.387Z",
+                     "description": "none",
+                     "id": "71a88733-d044-4d3a-8884-84c9792d95e5",
                      "dataProcessing": [
                         {
                            "id": 1,
                            "itemName": "TypeScript"
                         }
                      ],
-                     "description": "none",
-                     "ext": [
+                     "venue": [
                         {
                            "id": 1,
-                           "itemName": "*.ts"
+                           "itemName": "Definition"
                         }
                      ],
-                     "id": "71a88733-d044-4d3a-8884-84c9792d95e5",
                      "output": "",
                      "status": [
                         {
@@ -353,21 +353,21 @@
                         }
                      ],
                      "title": "Services paragraph def",
-                     "updated": "2025-08-03T01:00:06.388Z",
-                     "url": "url/update/me",
-                     "venue": [
+                     "ext": [
                         {
                            "id": 1,
-                           "itemName": "Definition"
+                           "itemName": "*.ts"
                         }
-                     ]
+                     ],
+                     "updated": "2025-08-03T01:00:06.388Z",
+                     "url": "url/update/me"
                   }
                ],
                "shorts": {
                   "author": "",
                   "created": "2025-08-03T00:57:04.648Z",
                   "description": "none",
-                  "disseminate": false,
+                  "disseminate": true,
                   "icon": [
                      {
                         "id": 1,
@@ -385,7 +385,12 @@
                   "modified": "2025-08-03T00:57:04.649Z",
                   "imgSource": "./assets/img/blog/placeholder_dev.png",
                   "subTitle": "Services short sub-title",
-                  "tags": [ ],
+                  "tags": [
+                     {
+                        "display": "super",
+                        "value": "super"
+                     }
+                  ],
                   "title": "Services short"
                }
             }
