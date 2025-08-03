@@ -312,7 +312,7 @@
          "created": "2025-08-03T00:55:09.349Z",
          "description": "Services description",
          "id": "38D8AA09-4DA9-4C24-8527-FD6B23871E3E",
-         "isPublished": false,
+         "isPublished": true,
          "modified": "2025-08-03T00:55:09.350Z",
          "pages": [
             {
@@ -366,7 +366,7 @@
                "shorts": {
                   "author": "",
                   "created": "2025-08-03T00:57:04.648Z",
-                  "description": "none",
+                  "description": "updated cat ver to v19",
                   "disseminate": true,
                   "icon": [
                      {
@@ -387,8 +387,8 @@
                   "subTitle": "Services short sub-title",
                   "tags": [
                      {
-                        "display": "super",
-                        "value": "super"
+                        "display": "v19",
+                        "value": "v19"
                      }
                   ],
                   "title": "Services short"
