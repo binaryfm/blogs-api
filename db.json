@@ -610,43 +610,6 @@
             "allowEdit": true,
             "blogs": [
                {
-                  "groupTitle": "Angular Directives",
-                  "id": "71075ea0-ec8b-4fff-bd1d-a768d2edabbc",
-                  "pages": [
-                     {
-                        "id": "5d5e8d08-f6ec-481e-9b9b-3df0d364f0ee",
-                        "shorts": {
-                           "exhibitFormat": "left-right",
-                           "id": "2o212014-0046-4260-b5b6-9018787f215a",
-                           "unveilShort": true
-                        },
-                        "subject": "Highlight directive page",
-                        "unveilPage": true
-                     },
-                     {
-                        "id": "8b498153-6541-4a19-a28e-2ff5b61a88dc",
-                        "shorts": {
-                           "exhibitFormat": "right-left",
-                           "id": "56b2f7d6-d55a-4e61-be51-d370eb34c8b5",
-                           "unveilShort": true
-                        },
-                        "subject": "TitleCase directive declaration page",
-                        "unveilPage": true
-                     },
-                     {
-                        "id": "1w782035-0048-4260-b5b6-9018787f2003",
-                        "shorts": {
-                           "exhibitFormat": "left-right",
-                           "id": "2w012096-0052-4260-b5b6-9018787f215a",
-                           "unveilShort": true
-                        },
-                        "subject": "Employee Name directive page",
-                        "unveilPage": false
-                     }
-                  ],
-                  "unveilBlog": true
-               },
-               {
                   "groupTitle": "Angular Signals",
                   "id": "9febe70d-b036-4ffd-bb73-ac298adfc9a7",
                   "pages": [
