@@ -422,34 +422,22 @@
    "ngrx": [ ],
    "metadata": [
       {
-         "id": "100",
-         "desc": "Blog drop-down options",
-         "iconsOptions": [
+         "blogTypeOptions": [
             {
                "id": 1,
-               "itemName": "faAngular"
+               "itemName": "ng"
             },
             {
                "id": 2,
-               "itemName": "faJs"
+               "itemName": "js"
             },
             {
                "id": 3,
-               "itemName": "faNodeJs"
+               "itemName": "rxjs"
             },
             {
                "id": 4,
-               "itemName": "faCss"
-            }
-         ],
-         "positionsOptions": [
-            {
-               "id": 1,
-               "itemName": "Left"
-            },
-            {
-               "id": 2,
-               "itemName": "Right"
+               "itemName": "ngrx"
             }
          ],
          "dataProcessingOptions": [
@@ -474,30 +462,7 @@
                "itemName": "Other"
             }
          ],
-         "venueOptions": [
-            {
-               "id": 1,
-               "itemName": "Definition"
-            },
-            {
-               "id": 2,
-               "itemName": "Implementation"
-            },
-            {
-               "id": 3,
-               "itemName": "Unit test"
-            }
-         ],
-         "statusOptions": [
-            {
-               "id": 1,
-               "itemName": "Active"
-            },
-            {
-               "id": 2,
-               "itemName": "Inactive"
-            }
-         ],
+         "desc": "Blog drop-down options",
          "extOptions": [
             {
                "id": 1,
@@ -524,22 +489,85 @@
                "itemName": "other"
             }
          ],
-         "blogTypeOptions": [
+         "imageSourceOptions": [
             {
                "id": 1,
-               "itemName": "ng"
+               "itemName": "AI_GENERATED_8",
+               "value": "../../../assets/img/shorts/ai-generated-8.jpg"
+            },
+            {
+               "id": "2",
+               "itemName": "LAPTOP_2",
+               "value": "../../../assets/img/shorts/laptop-2.jpg"
+            },
+            {
+               "id": "3",
+               "itemName": "PROGRAM_1",
+               "value": "../../../assets/img/shorts/program-1.jpg"
+            },
+            {
+               "id": "4",
+               "itemName": "PROGRAM_2",
+               "value": "../../../assets/img/shorts/program-2.jpg"
+            },
+            {
+               "id": "5",
+               "itemName": "PROGRAM_4",
+               "value": "../../../assets/img/shorts/program-4.jpg"
+            },
+            {
+               "id": "6",
+               "itemName": "SOURCE_4",
+               "value": "../../../assets/img/shorts/source-4.jpg"
+            },
+            {
+               "id": "7",
+               "itemName": "TECHNOLOGY_1",
+               "value": "../../../assets/img/shorts/technology-1.jpg"
+            },
+            {
+               "id": "8",
+               "itemName": "TECHNOLOGY_2",
+               "value": "../../../assets/img/shorts/technology-2.jpg"
+            }
+         ],
+         "iconsOptions": [
+            {
+               "id": 1,
+               "itemName": "faAngular"
             },
             {
                "id": 2,
-               "itemName": "js"
+               "itemName": "faJs"
             },
             {
                "id": 3,
-               "itemName": "rxjs"
+               "itemName": "faNodeJs"
             },
             {
                "id": 4,
-               "itemName": "ngrx"
+               "itemName": "faCss"
+            }
+         ],
+         "id": "100",
+         "positionsOptions": [
+            {
+               "id": 1,
+               "itemName": "Left"
+            },
+            {
+               "id": 2,
+               "itemName": "Right"
+            }
+         ],
+         "statusOptions": [
+            {
+               "id": 1,
+               "itemName": "Active"
+            },
+            {
+               "id": 2,
+               "itemName": "Inactive"
             }
          ],
          "themeTypeOptions": [
@@ -563,27 +591,19 @@
                "id": 5,
                "itemName": "NIGHT_OWL"
             }
-         ]
-      },
-      {
-         "id": "200",
-         "Desc": "User drop-down options",
-         "iconsOptions": [
+         ],
+         "venueOptions": [
             {
                "id": 1,
-               "itemName": "faAngular"
+               "itemName": "Definition"
             },
             {
                "id": 2,
-               "itemName": "faJs"
+               "itemName": "Implementation"
             },
             {
                "id": 3,
-               "itemName": "faNodeJs"
-            },
-            {
-               "id": 4,
-               "itemName": "faCss"
+               "itemName": "Unit test"
             }
          ]
       }
