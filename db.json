@@ -182,7 +182,13 @@
                         "itemName": "Right"
                      }
                   ],
-                  "imgSource": "./assets/img/sections/fabio-mangione.jpg",
+                  "imgSource": [
+                     {
+                        "id": 1,
+                        "itemName": "AI_GENERATED_8",
+                        "value": "../../../assets/img/shorts/ai-generated-8.jpg"
+                     }
+                  ],
                   "link": "/blog/ng/9febe70d-b036-4ffd-bb73-ac298adfc9a7/page/2489b003-6e1e-4ef2-ba8f-597ff5a6bd94",
                   "subTitle": "Writable Signals",
                   "title": "Writable Signals",
@@ -265,7 +271,13 @@
                         "itemName": "Right"
                      }
                   ],
-                  "imgSource": "./assets/img/sections/mika-matin.jpg",
+                  "imgSource": [
+                     {
+                        "id": 2,
+                        "itemName": "LAPTOP_2",
+                        "value": "../../../assets/img/shorts/laptop-2.jpg"
+                     }
+                  ],
                   "link": "blog/ng/D239DD2E-2FE5-4C0E-B2BB-347C53A9CE60/page/28F753A4-9EA7-4B93-BF71-AE76D281F5B5",
                   "modified": "2025-07-20T04:04:43.214Z",
                   "subTitle": "Data transformation",
@@ -383,7 +395,14 @@
                   ],
                   "link": "/blog/ng/38D8AA09-4DA9-4C24-8527-FD6B23871E3E/page/095D6B74-4757-48DE-A253-7B8072FA5B65",
                   "modified": "2025-08-03T00:57:04.649Z",
-                  "imgSource": "./assets/img/blog/placeholder_dev.png",
+                  "imgSource": [
+                     {
+                        "id": 3,
+                        "itemName": "PROGRAM_1",
+                        "value": "../../../assets/img/shorts/program-1.jpg"
+                     }
+                  ]
+               ,
                   "subTitle": "Services short sub-title",
                   "tags": [
                      {
@@ -491,42 +510,47 @@
          ],
          "imageSourceOptions": [
             {
+               "id": 0,
+               "itemName": "PLACEHOLDER_DEV",
+               "value": "../../../assets/img/blog/placeholder_dev.png"
+            },
+            {
                "id": 1,
                "itemName": "AI_GENERATED_8",
                "value": "../../../assets/img/shorts/ai-generated-8.jpg"
             },
             {
-               "id": "2",
+               "id": 2,
                "itemName": "LAPTOP_2",
                "value": "../../../assets/img/shorts/laptop-2.jpg"
             },
             {
-               "id": "3",
+               "id": 3,
                "itemName": "PROGRAM_1",
                "value": "../../../assets/img/shorts/program-1.jpg"
             },
             {
-               "id": "4",
+               "id": 4,
                "itemName": "PROGRAM_2",
                "value": "../../../assets/img/shorts/program-2.jpg"
             },
             {
-               "id": "5",
+               "id": 5,
                "itemName": "PROGRAM_4",
                "value": "../../../assets/img/shorts/program-4.jpg"
             },
             {
-               "id": "6",
+               "id": 6,
                "itemName": "SOURCE_4",
                "value": "../../../assets/img/shorts/source-4.jpg"
             },
             {
-               "id": "7",
+               "id": 7,
                "itemName": "TECHNOLOGY_1",
                "value": "../../../assets/img/shorts/technology-1.jpg"
             },
             {
-               "id": "8",
+               "id": 8,
                "itemName": "TECHNOLOGY_2",
                "value": "../../../assets/img/shorts/technology-2.jpg"
             }
