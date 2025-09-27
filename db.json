@@ -632,7 +632,7 @@
          ]
       }
    ],
-   "features": [
+   "feature": [
       {
          "features": {
             "allowEdit": true,
