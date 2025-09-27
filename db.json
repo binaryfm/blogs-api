@@ -634,7 +634,7 @@
    ],
    "feature": [
       {
-         "features": {
+         "feature": {
             "allowEdit": true,
             "blogs": [ ],
             "id": "4c2229c7-6c28-44cb-8a0e-c053d8d4b8ce",
@@ -650,7 +650,7 @@
          "name": "sections"
       },
       {
-         "features": {
+         "feature": {
             "allowEdit": true,
             "blogs": [
                {
@@ -701,7 +701,7 @@
          "name": "ng"
       },
       {
-         "features": {
+         "feature": {
             "allowEdit": true,
             "blogs": [
                {
